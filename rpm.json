@@ -1,0 +1,7 @@
+{
+  "publish": {
+    "PACKAGE": "dasel",
+    "GH_USER": "jc21-rpm",
+    "VERSION": "2.3.4"
+  }
+}
