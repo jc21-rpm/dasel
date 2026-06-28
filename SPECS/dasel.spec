@@ -3,7 +3,7 @@
 %global gh_user TomWright
 
 Name:           dasel
-Version:        3.11.1
+Version:        3.11.2
 Release:        1%{?dist}
 Summary:        Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool
 Group:          Applications/System
@@ -34,6 +34,9 @@ install -Dm0755 %{_builddir}/bin/%{name} %{buildroot}%{_bindir}/%{name}
 %{_bindir}/%{name}
 
 %changelog
+* Mon Jun 29 2026 Jamie Curnow <jc@jc21.com> 3.11.2-1
+- https://github.com/TomWright/dasel/releases/tag/v3.11.2
+
 * Sun Jun 21 2026 Jamie Curnow <jc@jc21.com> 3.11.1-1
 - https://github.com/TomWright/dasel/releases/tag/v3.11.1
 
